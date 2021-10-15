@@ -1,0 +1,21 @@
++  addition
+-  subtraction
+=  set equals to
+/  divide
+== check if equal
+
+lines must end with ; comments can be put after a ;
+
+!i(x)   = integer value of x
+!s(x)   = string value of x
+!f(x) = float value of x
+!b(x)  = bool value of x
+
+create a variable (must have value defined)
+$theNumber10 = !i(10) # sets a variable equal to the integer value of 10
+$helloWorld = !s("Hello World") # sets a variable to the string value of "Hello World"
+
+
+
+:out # like a print statement
+:out $var # outputs the value for $var
